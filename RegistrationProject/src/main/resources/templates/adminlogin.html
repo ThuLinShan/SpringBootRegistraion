@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Admin Login form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="css/adminlogin.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+</head>
+<body>
+	<!-- main -->
+	<div class="main-w3layouts wrapper">
+		<h1>Admin</h1>
+		<div class="main-agileinfo">
+		<p th:text="${message}"  style="color:white; text-align: center; padding-top: 1%;"></p>
+			<div class="agileits-top">
+				<form action="adminloginpost" method="post">
+					<input class="text" type="text" name="name" placeholder="Name" required="">
+					<input id="password" class="text" type="password" name="password" placeholder="Password" required="">
+					<div class="wthree-text">
+						<div class="clear"> </div>
+					</div>
+					<input type="submit" value="Login">
+				</form>
+				<p>Only an admin can create an account for another admin</p>
+			</div>
+		</div>
+		<!-- copyright -->
+		<div class="colorlibcopy-agile"  style="margin-top: 20%;">
+			<p>Credit to Colorlib for this beautiful template.</p>
+			<p>I personalized this template for my needs.</p>
+			<p>© 2018 Colorlib Signup Form. All rights reserved | Design by <a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
+		</div>
+		<!-- //copyright -->
+		<ul class="colorlib-bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<!-- //main -->
+</body>
+</html>
