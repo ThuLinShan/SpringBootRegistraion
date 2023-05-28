@@ -1,10 +1,10 @@
 # SpringBootRegistraion
 A registration project with java using spring boot.
 
-IDE:  Eclipse
-Build tool: Maven
-Framework:  Spring boot
-Database:   PostgreSQL
+IDE:  Eclipse,
+Build tool: Maven,
+Framework:  Spring boot,
+Database:   PostgreSQL,
 Language:   Java, html, css, javascript, thymeleaf
 
 It is recommended to have internet connection for running this project.
