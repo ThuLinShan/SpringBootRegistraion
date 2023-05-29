@@ -1,5 +1,5 @@
 # SpringBootRegistraion
-A registration project with java using spring boot.
+A personal project of a registration form with java using spring boot.
 
 IDE:  Eclipse,
 Build tool: Maven,
